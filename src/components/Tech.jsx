@@ -7,6 +7,7 @@ const renderTechnologies = () => {
   return technologies.map(({ name, icon }) => (
     <div className="w-28 h-28" key={name}>
       <BallCanvas icon={icon} />
+      <h1>{name}</h1>
     </div>
   ));
 };
